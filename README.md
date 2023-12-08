@@ -1,5 +1,7 @@
 # Mysql jdbc issue
 
+See MySql ticket [here](https://bugs.mysql.com/bug.php?id=113378).
+
 It seems there was a breaking behaviour change in version `8.0.29` when using prepared 
 statement. The behaviour when passing an Enum instance to a VARCHAR column has changed.
 
